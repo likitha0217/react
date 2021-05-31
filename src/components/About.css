@@ -1,0 +1,42 @@
+.about{
+    padding: 30px;
+    background-color: #fff;
+}
+.About__Container {
+    display: flex;
+    
+    flex-flow: column;
+    align-items: center;
+    max-width: 71vw;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .About__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;   
+  }
+   
+  .About__wrapper  p{
+    
+    font-weight: 400;
+  }
+  .About__Item1{
+    display: flex;
+    padding-right: 50px;
+    flex-flow: column;
+  }
+  .About__Item2{
+    display: flex;
+    
+    flex-flow: column;
+}
+.About__Item1 h2{
+  text-align: left;
+  padding-bottom: 9px;
+    font-size: 42px;
+    line-height: 1.3;
+
+}
